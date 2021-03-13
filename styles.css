@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    font-size: 22px;
+}
+
+.widget {
+    width: 350px;
+    height: 520px;
+    border: 2px solid rgb(212, 212, 255);
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: rgb(251, 252, 255);
+}
+
+.wrap {
+    width: 250px;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.icon {
+    width: 100%;
+    height: 100px;
+}
+
+.icon_item {
+    display: block;
+    margin: 0 auto;
+}
+
+
+select {
+    margin-top: 20px;
+    width: 250px;
+}
+
+input {
+    width: 250px;
+}
+
+.button {
+    margin: 0 auto;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+}
+
+

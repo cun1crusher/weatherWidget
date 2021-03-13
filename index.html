@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather widget</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="widget">
+        <div class="wrap">
+            <p class="name"></p>
+            <hr>
+            <div class="mainTemp">
+                <p class="temp"></p>
+                <p class="description"></p>
+            </div>
+            <hr>
+            <div class="icon"></div>
+            <select class="citySelect" name="" id="">
+                <option value="" disabled selected>Choose town</option>
+                <option id="" value="Ukhta">Ukhta</option>
+                <option id="" value="Novotroitsk">Novotroitsk</option>
+                <option id="" value="Snezhnogorsk">Snezhnogorsk</option>
+                <option id="" value="Saint Petersburg">Saint-Petersburg</option>
+                <option id="" value="Lappeenranta">Lappeenranta</option>
+            </select>
+            <p>or</p>
+            <input class="insert" type="text" placeholder="Insert city name">
+            <input class="button" type="submit" value="Check">
+        </div>
+    </div>
+
+
+
+    <script src="api.js"></script>
+</body>
+
+</html>
